@@ -179,7 +179,9 @@ int main()
     a.digit = "111111111111111111111111111111";
     BigInt b;
     b.digit = "333333333333333333333333333333";
-
+    //try this 
+    b.digit="000000001";
+    a.digit="150";
     BigInt c;
     c = a-b;
     cout << c;
